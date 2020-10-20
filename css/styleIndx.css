@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(209, 206, 206);
+}
+.imgTitle{
+    border: 1px none black;
+    background-color: white;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.logo{
+    height: 102px;
+    margin-bottom: -4px;
+    padding-left: 0%;
+}
+.title{
+    position: relative;
+    bottom: 0px;
+    left: 10px;
+    color: white;
+    padding-left: 0%;
+    background-color: rgb(1, 1, 95);
+    margin: -21px 0 0 -20px;
+    padding-left: 10%;
+}
+h1{
+    font-family: Arial;
+}
+.pie{
+    position: relative;
+    border: 1px solid rgb(1, 1, 95);
+    top: 1000px;
+    margin: -10px -10px;
+    background-color: rgb(1, 1, 95);
+    color: white;
+    padding-left: 10px;
+    font-family: Arial;
+}

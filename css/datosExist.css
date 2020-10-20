@@ -1,0 +1,40 @@
+input{
+    position: relative;
+    display: list-item;
+    left: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(1, 1, 95);
+    
+   
+    margin-bottom: -30px;
+    font-size: 20px;
+    font-family: Arial;
+    min-width: 30px;
+    
+}
+label{
+    font-family: Arial;
+    font-size: 18px;
+    position: relative;
+    top: 24px;
+    left: 5px;
+    
+}
+button{
+    left: 10%;
+    top: 30px;
+    bottom: 20px;
+    height: 20px;
+    position: relative;
+    margin: 30px;
+    width: 70px;
+    height: 40px;
+    border-radius: 15px;
+    font-family: Arial;
+    border: 1px solid rgb(1, 1, 95);
+    color: rgb(1, 1, 95);
+}
+button:hover{
+    color: white;
+    background-color: rgb(1, 1, 95);
+}

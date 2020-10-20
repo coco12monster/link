@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styleIndx.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="imgTitle">
+            <img src="./img/logo.jpg" alt="" height="100px" width="250px" class="logo">
+        </div>
+        <div class="title">
+            <h1>Registre la falla presentada</h1>
+        </div>    
+    </header>
+    <main>
+        <form action="./php/fallas.php" method="post">
+            <select name="falla_comun" id="falla">
+                <option value="no_enciende">No enciende</option>
+                <option value="">Se traba</option>
+                <option value="">Enciende y se apaga</option>
+                <option value="">No da imagen</option>
+                <option value="">Lenta</option>
+            </select>
+        
+            </br>
+            </br>
+        
+            <textarea name="fallas" id="otros" cols="20" rows="8" maxlength="255"></textarea>
+            </br>
+            </br>
+            
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

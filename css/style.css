@@ -1,0 +1,67 @@
+#datos input,select{
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid rgb(1, 1, 95);
+    left: 30%;
+    display: list-item;
+    margin-bottom: -30px;
+    font-size: 20px;
+    font-family: Arial;
+    min-width: 30px;
+    
+}
+label{
+    font-family: Arial;
+    font-size: 18px;
+    position: relative;
+    top: 24px;
+    left: 95px;
+    
+}
+
+.rfc{
+    visibility: hidden;
+}
+.factura{
+    position: relative;
+    top: 3px;
+    
+}
+.factura:checked ~ .rfc {
+    visibility: visible;     
+}
+
+button{
+    left: 20%;
+    top: 30px;
+    bottom: 20px;
+    height: 20px;
+    position: relative;
+    margin: 30px;
+    width: 70px;
+    height: 40px;
+    border-radius: 15px;
+    font-family: Arial;
+    border: 1px solid rgb(1, 1, 95);
+    color: rgb(1, 1, 95);
+}
+button:hover{
+    background-color: rgb(1, 1, 95);
+    color: white;
+}
+
+@media only screen and (max-width: 768px ){
+    label{
+    
+    top: -3px;
+
+}
+input{
+    position: relative;
+    right: 30px;
+}
+select{
+    width:  250px;
+    background-color: white;
+}
+} 

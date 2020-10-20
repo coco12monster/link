@@ -1,0 +1,48 @@
+.regs{
+    position: relative;
+    color: rgb(1, 1, 95);
+    border: 1px solid rgb(1, 1, 95); 
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    font-family: Arial;   
+}
+.regs:hover{
+    background-color: rgb(1, 1, 95); 
+    color: white;
+}
+.reg{
+    position: relative;
+    color: rgb(1, 1, 95);
+    border: 1px solid rgb(1, 1, 95); 
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    font-family: Arial;  
+}
+.reg:hover{
+    background-color: rgb(1, 1, 95); 
+    color: white;
+}
+.datos{
+    position: relative;
+    top: 50px;
+}
+label{
+    position: relative;
+    font-family: Arial;
+    top: 20px;
+}
+input{
+  
+    position: relative;
+    display: list-item;
+    left: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(1, 1, 95);
+    visibility: hidden;
+}
+
+
