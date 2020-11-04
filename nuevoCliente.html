@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang=es">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href=" ./css/style.css">
+    <link rel="stylesheet" href="./css/styleIndx.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <div class="imgTitle">
+            <a href="./index.html" ><img src="./img/logo.jpg" alt="" height="100px" width="250px" class="logo"></a>
+        </div>
+        <div class="title">
+            <h1>Nuevo registro</h1>
+        </div>    
+    </header>
+
+    <main>
+        <form action="./php/registroComp.php"   method="POST" class="datos" id="datos" name="clientes">
+                <label for="cte_nom">Nombre</label>
+            <input type="text" class="cte_nom" id="datos" name="cte_nom" required>
+            </br>
+            </br>
+            
+                <label for="cte_ap">Apellido</label>
+            <input type="text" class="cte_ap" id="datos" name="cte_ap" required>
+            </br>
+            </br>
+            
+                <label for="cte_dir">Calle</label>
+            <input type="text" class="cte_dir" id="datos" name="cte_dir" required>
+            </br>
+            </br>
+                
+                <label for="cte_dir_num">Numero</label>
+            <input type="text" class="cte_dir_num" id="datos" name="cte_dir_num" required>
+            </br>
+            </br>
+
+                <label for="cte_int_num">Numero interior</label>
+            <input type="text" class="cte_int_num" id="datos" name="cte_int_num">
+            </br>
+            </br>
+            
+                <label for="cte_cp">Codigo postal</label>
+            <input type="text" class="cte_cp" id="datos" name="cte_cp" required>
+            </br>
+            </br>
+
+                <label for="cte_cd">Ciudad</label>
+            <input type="text" class="cte_cd" id="datos" name="cte_cd" required>
+            </br>
+            </br>
+                
+                <label for="cte_pa">Pais</label>
+            <input type="text" class="cte_pa" id="datos" name="cte_pa" required>
+            </br>
+            </br>
+
+                <label for="cte_num">Numero telefonico</label>
+            <input type="text" class="cte_num" id="datos" name="cte_num" required>
+            </br>
+            </br>
+            
+                <label for="cte_cor">Correo</label>
+            <input type="email" class="cte_cor" id="datos" name="cte_cor" required>
+            </br>
+            </br>
+
+            <label for="cte_cor">contarseña</label>
+            <input type="password" class="cte_pass" id="datos" name="cte_pass" maxlength="8" minlength="6" required>
+            </br>
+            </br>
+                
+                <label for="factura">Requiero factura</label>
+            <input type="checkbox" name="factura" id="factura" class="factura" >
+                </br>
+                </br>
+                
+                <label for="cte_rfc" class="rfc">RFC</label>
+            <input type="text" class="rfc" id="datos" name="cte_rfc" >
+            </br>
+            </br>
+        <label for="uso_rfc" class="rfc" >Uso RFC</label>
+                
+            <select class="rfc" id="datos" name="uso_rfc" >
+                <option value=""></option>
+                <option value="G01">adquisicion de mercancias</option>
+                <option value="G02">Devoluciones, descuentos o bonificaciones</option>
+                <option value="G03">Gastos en general</option>
+                <option value="I04">Equipo de computo y accesorios</option>
+                <option value="P01">Por definir</option>
+            </select>
+        
+            </br>
+            </br>
+            
+            <button type="submit" class="boton" id="datos">ENVIAR</button>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
